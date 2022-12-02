@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css " />
+    <title>Lords Of Memory javaScript</title>
+    <link href="https://fonts.cdnfonts.com/css/new-super-mario-font-u" rel="stylesheet">
+  </head>
+  <body>
+
+    <img class="headline-pic" src="assets/Memory.png" alt="memory">
+    <h1>Memoryspel</h1>
+
+    <!---Spelarnamn------------------------------->
+    
+    <div class="player-names">
+
+      <p class="spelare1">Namn spelare 1:</p>
+      <input class="player-1" type= "text" placeholder="Skriv namn" id="player1">
+      <p class="spelare2">Namn spelare 2:</p>
+      <input class="player-2" type= "text" placeholder="Skriv namn" id="player2">
+      <button class="name-btn" onclick="setNames()">Ange spelarnas namn</button>
+      
+    </div>
+
+    <!---Spelarnamn------------------------------->
+
+    <h3 class="player-turn">Spelares tur: <label class="player-turn-lbl"></label></h3>
+
+    <p class="player-one-score"></p>
+    <p class="player-two-score"></p>
+    
+    <!---I main ska spelet skapas (alla bilder)------------------------------->
+
+    <section class="game-field"></section>
+
+    <!---I main ska spelet skapas (alla bilder)------------------------------->
+  </body>
+</html>
